@@ -11,7 +11,7 @@
     "test": "node --env-file-if-exists=.env.local --test tests/orders-security.test.mjs tests/api-validation-security.test.mjs tests/xss-security.test.mjs tests/bot-ratelimit-security.test.mjs tests/security-headers-cors.test.mjs tests/cookie-csrf-security.test.mjs tests/build-env-security.test.mjs"
   },
   "dependencies": {
-    "@supabase/supabase-js": "^2.117.2",
+    "@supabase/supabase-js": "^2.117.3",
     "clsx": "^2.1.1",
     "isomorphic-dompurify": "^4.5.0",
     "lucide-react": "^1.52.0",
